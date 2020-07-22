@@ -6,9 +6,8 @@ export const Tshirt = async () => {
         const url = `${localhost}/tshirts/?_sort=id:DESC`;
         const ftch = await fetch(url);
         const data = await ftch.json();
-        // const result = data;
-    
-        console.log(result);
+        const result = data;
+        // console.log(result);
 
         for (let i in result) {
             const container = document.querySelector(".container__content");
