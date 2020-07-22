@@ -1,0 +1,1 @@
+export const localhost = "https://vanillajsecom.herokuapp.com";
