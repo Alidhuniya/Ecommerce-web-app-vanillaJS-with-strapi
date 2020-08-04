@@ -288,6 +288,12 @@ html {
   
     padding-bottom: 3rem;
   }
+
+  .show {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: -9rem;
+  }
   
   .container__imgContent {
     width: 182px;
