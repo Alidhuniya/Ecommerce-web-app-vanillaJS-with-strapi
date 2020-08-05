@@ -8,12 +8,7 @@ export const Tshirt = async () => {
 		const result = data;
 		// console.log(result[0].tshirt[0].desc);
 
-		document.querySelector(".show").textContent =
-			"Loading: It may be slow while fetching from Heroku Server";
-
-		setTimeout(function () {
-			document.querySelector(".show").style.display = "none";
-		}, 3000);
+	
 
 		for (let i in result) {
 			const container = document.querySelector(".container__content");
@@ -78,3 +73,10 @@ export const Tshirt = async () => {
 		console.log("failed", error);
 	}
 };
+
+document.querySelector(".show").textContent =
+"Loading: It may be slow while fetching from Heroku Server";
+
+setTimeout(function () {
+document.querySelector(".show").style.display = "none";
+}, 7000);
